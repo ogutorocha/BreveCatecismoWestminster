@@ -27,14 +27,14 @@ body {
   height: 80px;
 }
 
-@media (max-width: 730px) {
+@media screen and (max-width: 730px) {
   #title {
     line-height: 50px;
     height: 120px;
   }
 }
 
-@media (max-width: 365px) {
+@media screen and (max-width: 365px) {
   #title {
     line-height: 50px;
     height: 180px;
