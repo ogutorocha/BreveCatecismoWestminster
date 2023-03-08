@@ -28,6 +28,10 @@ body {
 }
 
 @media screen and (max-width: 730px) {
+  #box {
+    min-width: 80%;
+  }
+  
   #title {
     line-height: 50px;
     height: 120px;
@@ -35,6 +39,12 @@ body {
 }
 
 @media screen and (max-width: 365px) {
+  #box {
+    min-width: 90%;
+  }
+  
+  }
+  
   #title {
     line-height: 50px;
     height: 180px;
