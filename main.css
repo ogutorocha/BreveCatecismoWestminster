@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  background-image: url("page-edition-Shorter-Westminster-Catechism.webp");
+  color: white;
+  background-attachment: fixed;
+}
+
+#box {
+  width: 70%;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 50px;
+  min-width: 700px;
+}
+
+#title {
+  font-size: 40px;
+  font-family: "UnifrakturCook", cursive;
+  line-height: 0;
+  text-align: center;
+  height: 80px;
+}
+
+@media (max-width: 730px) {
+  #title {
+    line-height: 50px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 365px) {
+  #title {
+    line-height: 50px;
+    height: 180px;
+  }
+}
+
+#mode {
+  font-family: "Alegreya SC", serif;
+  font-size: 12px;
+}
+
+#question {
+  display: none;
+  text-align: center;
+}
+
+#numero {
+  font-family: "Alegreya SC", serif;
+  font-size: 20px;
+}
+
+#pergunta {
+  font-family: "Alegreya SC", serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+
+#resposta {
+  font-family: "Alegreya SC", serif;
+  font-size: 24px;
+  text-align: left;
+}
+
+#refs {
+  font-family: "Alegreya SC", serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+#modoLista {
+  font-family: "Alegreya SC", serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+a {
+  font-family: "Alegreya SC", serif;
+  text-decoration: none;
+  color: azure;
+}
+
+a:hover {
+  color: beige;
+  cursor: pointer;
+}
+
+a:visited {
+  color: gray;
+}
+
+#coded {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Alegreya SC", serif;
+}
+
+#mode {
+  font-family: "Alegreya SC", serif;
+  text-decoration: none;
+  color: azure;
+}

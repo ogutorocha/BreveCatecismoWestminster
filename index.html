@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Breve Catecismo de Westminster</title>
+  </head>
+  <body>
+    <div id="box">
+      <div id="mode">
+        Selecione um modo:
+        <a onclick="getQuestion()" id="modoAle">Modo Aleatório</a> |
+        <a onclick="modoLista()" id="modoAle">Modo Lista</a>
+      </div>
+      <div id="title">
+        <p>Breve Catecismo de Westminster</p>
+      </div>
+      <div id="question">
+        <p id="numero"></p>
+        <p id="pergunta"></p>
+        <p id="resposta"></p>
+        <p id="refs"></p>
+      </div>
+      <div id="modoLista">
+        <span id="link"></span>
+        <p id="numero"></p>
+        <p id="pergunta"></p>
+        <p id="resposta"></p>
+        <p id="refs"></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+
+    <div id="coded" style="text-align: center">
+      codado com <span style="color: red">♥</span> por Carlos Rocha
+    </div>
+  </body>
+</html>
